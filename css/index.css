@@ -1,0 +1,346 @@
+body
+{
+	margin: 10px;
+	padding: 0px;
+	background-color: #f3f3f3;
+}
+
+/*header start*/
+
+#navbar
+{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #333333;
+	padding: 20px;
+
+
+}
+#navbar a
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 20px;
+}
+#navbar a:hover
+{
+	color: #00d4ff;
+}
+#navbar a:active
+{
+	color: #ffc107;
+}
+#navbar button
+{
+	padding: 10px 20px;
+	background-color: #22c1c3;
+	font-size: 15px;
+	border-radius: 10px;
+}
+#navbar button:hover
+{
+	background-color: #5da56a;
+	opacity: 0.7;
+	color: #fff;
+}
+
+/*header end*/
+/*into start*/
+.intro
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 50px;
+	overflow: hidden;
+	align-items: center;
+	justify-content: space-around;
+}
+.image img
+{
+	width: 100%;
+	height: 550px;
+	display:block;
+	object-fit:fill;
+}
+.content
+{
+	font-family: Arial, sans-serif;
+	height: auto;
+	width: auto;
+
+}
+.greet
+{
+	font-size: 40px;
+}
+.name
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 110px;
+	color: transparent;
+	-webkit-text-stroke: 2px #6F6F6F;
+	font-weight: bold;
+}
+.developer
+{
+	font-weight: bold;
+	font-size: 30px;
+	color: #6F6F6F;
+}
+.explination
+{
+	font-size: 20px;
+	text-align: justify;
+	color: #6F6F6F;
+}
+
+/*intro end*/
+
+/*footer start*/
+footer
+{
+	background-color: #333333;
+	color: #ffffff;
+	padding: 20px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.socialmedia
+{
+	display: flex;
+	justify-content: space-around;
+}
+.socialmedia div
+{
+	padding: 10px;
+}
+
+/*footer end*/
+
+/*anout page start*/
+.aboutpage
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 500px 900px;
+	justify-items: center;
+	margin-top: 10px;
+	color: #565656;
+}
+
+.aboutimg
+{
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.aboutimgcontent p
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+.aboutcontent
+{
+	font-size: 20px;
+	text-align: justify;
+	padding: 20px 250px;
+}
+.capsen
+{
+	text-align: center;
+	color: #565656;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 40px;
+}
+.skill span
+{
+	font-size: 20px;
+	padding: 20px 0px;
+}
+.skill
+{
+	padding: 20px 0px;
+}
+.process-bar
+{
+	background-color: #cdcdcd !important;
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 30px;
+}
+.html-bar
+{
+	background-color: #565656 !important;
+	border-radius: 10px;
+	width: 90%;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+}
+.css-bar
+{
+	background-color: #565656 !important;
+	border-radius: 10px;
+	width: 80%;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+}
+.boostrap-bar
+{
+	background-color: #565656 !important;
+	border-radius: 10px;
+	width: 60%;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+}
+.python-bar
+{
+	background-color: #565656 !important;
+	border-radius: 10px;
+	width: 95%;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+}
+.javascript-bar
+{
+	background-color: #565656 !important;
+	border-radius: 10px;
+	width: 70%;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+}
+.java-bar
+{
+	background-color: #565656 !important;
+	border-radius: 10px;
+	width: 60%;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	height: 30px;
+}
+/*about page end*/
+
+/*portfolio page start*/
+
+.Portfolio
+{
+	display: grid;
+	color: #565656;
+}
+.my-work
+{
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.lorem
+{
+	text-align: center;
+	font-size: 20px;
+}
+.work-img
+{
+	padding: 50px 100px;
+	text-align: center;
+
+}
+.work-img img
+{
+	padding: 10px;
+}
+.work-img img:hover
+{
+	opacity: 0.5;
+}
+/*portfolio page end*/
+
+/*contact page start*/
+
+.contact
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 50px;
+}
+.touch h1
+{
+	font-size: 75px;
+	text-align: center;
+}
+.mail
+{
+	text-align: center;
+	padding: 20px;
+}
+.mail a
+{
+	text-decoration: none;
+	color: #333;
+	padding: 20px;
+}
+.message form
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 0px 40px;
+  	font-size: 20px;
+}
+.message form label
+{
+	padding: 30px 0px;
+}
+.message form input
+{
+	padding: 10px 0px;
+	overflow: hidden;
+	border:none;
+	border-bottom: 2px solid #333;
+	background-color: #f3f3f3;
+}
+.message form textarea
+{
+	padding: 10px 0px;
+	overflow: hidden;
+	border:none;
+	border-bottom: 2px solid #333;
+	background-color: #f3f3f3;
+	height: 100px;
+}
+.message form button
+{
+	background-color: #757575;
+	padding: 10px;
+	margin-top: 20px;
+	color: #fff;
+	border-radius: 10px;
+}
+.message form button:hover
+{
+	box-shadow: 5px 5px #333;
+}
+
+
+
+
+
